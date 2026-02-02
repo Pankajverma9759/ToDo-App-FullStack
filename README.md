@@ -1,2 +1,4 @@
 # ToDo-App-FullStack
 This is ToDoApp fullstack developed in MERN STACK  by Pankaj Verma
+
+This is a Full Stack Todo Application built using the MERN Stack, where the frontend is developed with React to provide a smooth and responsive user interface, and the backend is created using Node.js and Express.js. MongoDB is used as the database to store todo tasks securely. The application allows users to create, read, update, and delete their tasks efficiently. User authentication is implemented using JWT to ensure secure access, and each user can manage their own personal todo list. RESTful APIs are used for communication between the frontend and backend, with Axios handling HTTP requests. Proper input validation and error handling are applied on both sides to improve reliability. The project follows a clean and organized folder structure and is ideal for learning and demonstrating full-stack web development concepts.
