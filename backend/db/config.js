@@ -14,5 +14,5 @@ const connection = async () => {
 
 module.exports = {
   connection,
-  collectionName:'tasks',
+  collectionName
 };
