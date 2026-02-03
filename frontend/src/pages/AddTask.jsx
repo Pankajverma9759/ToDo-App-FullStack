@@ -21,6 +21,7 @@ export default function AddTask() {
     try {
       const response = await fetch("http://localhost:5000/add-task", {
         method: "POST",
+        credentials:'include',
         headers: {
           "Content-Type": "application/json",
         },
@@ -28,7 +29,7 @@ export default function AddTask() {
       });
 
       const data = await response.json();
-
+      console.log(data);
       if (data.success) {
         setPopupMsg(data.message || "Task added successfully ✅");
         setIsError(false);

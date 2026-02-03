@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;       /* fixed at bottom */
+  bottom: 0;             /* stick to bottom */
+  left: 0;               /* full width */
+  width: 100%;
+  background-color: #22ab6a;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 1rem;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;         /* on top of content */
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 0.9rem;
+    padding: 2px 0;
+  }
+}
